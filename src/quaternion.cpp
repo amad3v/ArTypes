@@ -32,7 +32,7 @@ void Quaternion::normalize() {
 
 float Quaternion::angle(bool inDegrees) {
     if (inDegrees) {
-        return (2.0f * acosf(w)) * cst::RAD_TO_DEG;
+        return (2.0f * acosf(w)) * cst::RAD2DEG;
     }
 
     return 2.0f * acosf(w);
