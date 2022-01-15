@@ -1,0 +1,9 @@
+.pio
+.vscode
+.idea
+docs
+Doxyfile
+.clang-format
+*.trial
+*.old
+*.bkp
